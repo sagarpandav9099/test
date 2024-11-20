@@ -76,7 +76,7 @@ DATABASES = {
     'default': env.db('DATABASE_URL'),  # Supabase PostgreSQL URL from .env
 }
 
-# ALLOWED_HOSTS = ['13.53.34.141']  # AWS Public IP Address
+ALLOWED_HOSTS = ['13.53.34.141']  # AWS Public IP Address
 
 
 
